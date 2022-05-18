@@ -1,0 +1,39 @@
+.full-article {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+.full-article-full-article h1{
+    font-size: 26px;
+}
+
+.date-full-article{
+    background-color: rgba(96, 156, 234, 0.329);
+    text-align: left;
+    font-size: 18px;
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.article-img-full-article{
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+}
+
+.description-full-article{
+    width: 640px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 18px;
+    text-indent: 25px;
+    /* margin-bottom: 10px; */
+}

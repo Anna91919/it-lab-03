@@ -1,0 +1,81 @@
+<?php
+$data_date = '16.05.2022';
+$data_title= 'McDonalds уходит с российского рынка';
+$data_src1= 'img2.jpg'; 
+$data_short_description='В начале марта компания McDonald's объявила о временном закрытии в России 850 ресторанов быстрого питания из-за ситуации вокруг Украины и приостановке всех операций на рынке.';
+$data_src1= 'img2.jpg'; 
+?>
+
+<!DOCTYPE html lang="ru">
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <title>NEWS.RU</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .full-article {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
+                width: 800px;
+                margin: auto;
+                text-align: center;
+                font-family: arial;
+                border-radius: 10px;
+            }
+            .full-article h1{
+                font-size: 26px;
+            }
+
+            .date{
+                background-color: rgba(96, 156, 234, 0.329);
+                text-align: left;
+                font-size: 18px;
+                margin-top: 5px;
+                width: 100px;
+                border-radius: 5px;
+            }
+
+            .article-img{
+                width: 400px;
+                height: 250px;
+                margin: 0;
+            }
+
+            .description{
+                width: 580px;
+                max-height: 282px;
+                padding: 10px;
+            }
+
+            .description p{
+                font-size: 18px;
+            }
+
+        </style>
+	</head>
+	<body> 
+        <div class="header">
+            <h1>NEWS.RU</h1>
+            <p>Новости</p>
+        </div>
+        <div class="navbar">
+            <a href="/main.html" class="active">Главная</a>
+        </div>
+
+        <div class='full-article'>
+            <p class="date"><?=$data_date?></p>
+            <h1><?=$data_title?></h1>
+            <img class="article-img" src= <?=$data_src1?> > 
+            <div class='description'>
+                <p><?=$data_short_description?></p>
+            </div>
+            <img class="article-img" src= <?=$data_src2?> > 
+        </div>       
+
+        <script>
+
+        </script>
+            
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<button class=<?=$button_class?> name=<?=$data_id?> onclick=<?=$button_func?>><?=$button_html?></button>
+<form class='article' action="L3_server_full_article.php" method="get">
+    <p class="date"><?=$data_date?></p>
+    <h1><?=$data_title?></h1>
+    <img class="article-img" src= <?=$data_src?> >
+    <input type="hidden" name='id' value=<?=$data_id?>> 
+    <div class='description'>
+        <p><?=$data_short_description?></p>
+    </div>
+    <p><button type="submit">Посмотреть статью</button></p>
+</form>
