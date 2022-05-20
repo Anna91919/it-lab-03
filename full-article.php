@@ -11,49 +11,6 @@
 	    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="style_full_article.css">
-        <style>
-            .comment {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
-                width: 680px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 15px;
-                text-align: center;
-                font-family: arial;
-                border-radius: 10px;
-            }
-            .comment input{
-                margin: 10px;
-                width: 500px;
-                height: 30px;
-            }
-
-            .comment button {
-                border: none;
-                outline: 0;
-                padding: 10px;
-                color: white;
-                background-color: #000;
-                text-align: center;
-                cursor: pointer;
-                width: 100px;
-                font-size: 14px;
-                margin: 10px;
-            }
-
-            .comment-text{
-                font-style: italic;
-            }
-
-            .comment-name{
-                text-align: left;
-                margin-left: 10px;
-                float:left;
-                font-weight: bold;
-            }
-        </style>
 
 	</head>
 	<body> 

@@ -44,7 +44,7 @@
             $data_src= $a_data[4]; 
             $data_id = $a_data[0];
             $data_short_description=$a_data[6];
-            include "template.html";
+            include "template_user.html";
             echo "</div>";
         
             echo "</li>";

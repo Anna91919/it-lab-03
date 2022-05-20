@@ -14,69 +14,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация и регистрация</title>
-    <style>
-        body{
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: Arial;
-        }
-
-        form{
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            border-radius:10px;
-            border: 1px LightGray solid;
-            width: 370px;
-        }
-
-        input{
-            margin: 10px 0;
-            padding: 10px;
-            border: unset;
-            border-bottom: 1px LightGray solid;
-            outline: none;
-        }
-
-        a{
-            color: gray;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        button{
-            /* padding: 10px;
-            background: LightGray;
-            border: none;
-            cursor: pointer;
-            border: none; */
-            outline: 0;
-            padding: 12px;
-            color: white;
-            background-color: #000;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            font-size: 14px;
-            border-radius: 5px;
-        }
-
-
-        button:hover {
-            opacity: 0.7;
-        }
-
-        .msg{
-            border: 2px orange solid;
-            margin: 5px;
-        }
-
-        p{
-            margin: 5px;
-        }
-</style>
+    <link rel="stylesheet" href="styles_login.css">
 </head>
 <body>
 
